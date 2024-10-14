@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./Pictures/Home/Csillagok_az_vegben.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    color:lavenderblush;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+p {
+    color:lavenderblush;
+    font-size: 2em;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+h1:hover{
+    padding-left: 45px;
+    
+}
+.invisible-button {
+    opacity: 0; /* A gomb láthatatlan lesz */
+    position: absolute; /* Az elem helyzete a szülőhöz viszonyítva */
+    top: 70%; /* Pozicionálás */
+    left: 56.5%; /* Pozicionálás */
+    transform: translate(-50%, -50%); /* Középre igazítás */
+    width: 40vh; 
+    height: 36vh; 
+    border-radius: 50px,20px 50px;
+}
+.segitseg{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
